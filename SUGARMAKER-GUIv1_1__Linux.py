@@ -45,9 +45,9 @@ class Ui_Form(object):
             config = (json.load(f))
 
         Form.setObjectName("Form")
-        Form.resize(600, 550)
-        Form.setMinimumSize(QtCore.QSize(600, 550))
-        Form.setMaximumSize(QtCore.QSize(600, 550))
+        Form.resize(800, 700)
+        Form.setMinimumSize(QtCore.QSize(800, 700))
+        Form.setMaximumSize(QtCore.QSize(800, 700))
         font = QtGui.QFont()
         font.setFamily("Nirmala UI")
         Form.setFont(font)
